@@ -42,7 +42,23 @@
     transition: 0.1s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.7; cursor: pointer;}
+#myImg2:hover {opacity: 0.7; cursor: pointer;}
+#myImg3:hover {opacity: 0.7; cursor: pointer;}
+#myImg4:hover {opacity: 0.7; cursor: pointer;}
+#myImg5:hover {opacity: 0.7; cursor: pointer;}
+#myImg6:hover {opacity: 0.7; cursor: pointer;}
+#myImg7:hover {opacity: 0.7; cursor: pointer;}
+#myImg8:hover {opacity: 0.7; cursor: pointer;}
+#myImg9:hover {opacity: 0.7; cursor: pointer;}
+#myImg10:hover {opacity: 0.7; cursor: pointer;}
+#myImg11:hover {opacity: 0.7; cursor: pointer;}
+#myImg12:hover {opacity: 0.7; cursor: pointer;}
+#myImg13:hover {opacity: 0.7; cursor: pointer;}
+#myImg14:hover {opacity: 0.7; cursor: pointer;}
+#myImg15:hover {opacity: 0.7; cursor: pointer;}
+#myImg16:hover {opacity: 0.7; cursor: pointer;}
+
 
 /* The Modal (background) */
 .modal {
@@ -71,7 +87,7 @@
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 50%;
     max-width: 700px;
     text-align: center;
     color: #ccc;
