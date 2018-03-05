@@ -15,10 +15,20 @@
 	padding-bottom: 35px;
 }
 
+.pl:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
 .pr {
 	width: 47.5%;
 	float: right;
 	padding-bottom: 35px;
+}
+
+.pr:hover {
+	opacity: 0.7;
+	cursor: pointer;
 }
 
 #gif g {
@@ -35,37 +45,22 @@
 	margin: 0 2.5%;
 }
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.1s;
+.socImg {
+	width: 28%; 
 }
 
-#myImg:hover {opacity: 0.7; cursor: pointer;}
-#myImg2:hover {opacity: 0.7; cursor: pointer;}
-#myImg3:hover {opacity: 0.7; cursor: pointer;}
-#myImg4:hover {opacity: 0.7; cursor: pointer;}
-#myImg5:hover {opacity: 0.7; cursor: pointer;}
-#myImg6:hover {opacity: 0.7; cursor: pointer;}
-#myImg7:hover {opacity: 0.7; cursor: pointer;}
-#myImg8:hover {opacity: 0.7; cursor: pointer;}
-#myImg9:hover {opacity: 0.7; cursor: pointer;}
-#myImg10:hover {opacity: 0.7; cursor: pointer;}
-#myImg11:hover {opacity: 0.7; cursor: pointer;}
-#myImg12:hover {opacity: 0.7; cursor: pointer;}
-#myImg13:hover {opacity: 0.7; cursor: pointer;}
-#myImg14:hover {opacity: 0.7; cursor: pointer;}
-#myImg15:hover {opacity: 0.7; cursor: pointer;}
-#myImg16:hover {opacity: 0.7; cursor: pointer;}
+.socImg:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
 
 
-/* The Modal (background) */
-.modal {
+/* The Modal (first row) */
+.modal, .modal2, .modal3, .modal4, .modal5, .modal6, .modal7, .modal8, .socialModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1000; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 8em; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -75,12 +70,46 @@
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
+/* The Modal (second row) */
+.modal2 {padding-top: 59em;}
+
+/* The Modal (third row) */
+.modal3 {padding-top: 102.5em;}
+
+/* The Modal (fourth row) */
+.modal4 {padding-top: 146em;}
+
+/* The Modal (fifth row) */
+.modal5 {padding-top: 189.5em;}
+
+/* The Modal (sixth row) */
+.modal6 { padding-top: 233em;}
+
+/* The Modal (seventh row) */
+.modal7 { padding-top: 276.5em;}
+
+/* The Modal (eighth row) */
+.modal8 { padding-top: 320.25em;}
+
 /* Modal Content (Image) */
 .modal-content {
     margin: auto;
     display: block;
     width: 60%;
     max-width: 700px;
+
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#socCaption {
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -115,7 +144,7 @@
 
 /* The Close Button */
 .close {
-    position: absolute;
+    position: relative;
     top: 15px;
     right: 35px;
     color: #f1f1f1;

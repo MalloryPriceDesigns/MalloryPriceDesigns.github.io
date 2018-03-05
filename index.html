@@ -103,7 +103,7 @@
 								var span = document.getElementsByClassName("close")[0];
 
 								// When the user clicks on <span> (x), close the modal
-								span.onclick = function() { 
+								modal.onclick = function() {
 									modal.style.display = "none";
 								}
 								</script>
@@ -125,226 +125,298 @@
 								</script>
 
 								<img id="myImg3" src="images/news/3H.jpg" alt="The Arizona Republic." class="pl" >
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal3" class="modal2">
+									<span class="close" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
+									<img class="modal-content" id="img03">
 									<div id="caption">Arizona Republic.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg3');
+								var modalL2 = document.getElementById('myModal3');
+								var modalImg3 = document.getElementById("img03");
+
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL2.style.display = "block";
+									modalImg3.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL2.onclick = function() {
+									modalL2.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg4" src="images/news/4V.jpg" alt="The Desert Sun." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal4" class="modal2">
+									<span class="close" onclick="document.getElementById('myModal4').style.display='none'">&times;</span>
+									<img class="modal-content" id="img04">
 									<div id="caption">The Desert Sun.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg4');
+								var modalR2 = document.getElementById('myModal4');
+								var modalImg4 = document.getElementById('img04');
+
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR2.style.display = "block";
+									modalImg4.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR2.onclick = function() {
+									modalR2.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg5" src="images/news/5T.jpg" alt="The Arizona Republic." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal5" class="modal3">
+									<span class="close" onclick="document.getElementById('myModal5').style.display='none'">&times;</span>
+									<img class="modal-content" id="img05">
 									<div id="caption">Arizona Republic.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg5');
+								var modalL3 = document.getElementById('myModal5');
+								var modalImg5 = document.getElementById('img05');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL3.style.display = "block";
+									modalImg5.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL3.onclick = function() {
+									modalL3.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg6" src="images/news/6S.jpg" alt="The Desert Sun." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal6" class="modal3">
+									<span class="close" onclick="document.getElementById('myModal6').style.display='none'">&times;</span>
+									<img class="modal-content" id="img06">
 									<div id="caption">The Desert Sun. </div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg6');
+								var modalR3 = document.getElementById('myModal6');
+								var modalImg6 = document.getElementById('img06');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR3.style.display = "block";
+									modalImg6.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR3.onclick = function() {
+									modalR3.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg7" src="images/news/7L.jpg" alt="The Arizona Republic." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal7" class="modal4">
+									<span class="close" onclick="document.getElementById('myModal7').style.display='none'">&times;</span>
+									<img class="modal-content" id="img07">
 									<div id="caption">Arizona Republic.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg7');
+								var modalL4 = document.getElementById('myModal7');
+								var modalImg7 = document.getElementById('img07');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL4.style.display = "block";
+									modalImg7.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL4.onclick = function() {
+									modalL4.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg8" src="images/news/8B.jpg" alt="The Arizona Republic." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal8" class="modal4">
+									<span class="close" onclick="document.getElementById('myModal8').style.display='none'">&times;</span>
+									<img class="modal-content" id="img08">
 									<div id="caption">Arizona Republic. </div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg8');
+								var modalR4 = document.getElementById('myModal8');
+								var modalImg8 = document.getElementById('img08');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR4.style.display = "block";
+									modalImg8.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR4.onclick = function() {
+									modalR4.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg9" src="images/news/9B.jpg" alt="Corpus Christi Caller-Times." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal9" class="modal5">
+									<span class="close" onclick="document.getElementById('myModal9').style.display='none'">&times;</span>
+									<img class="modal-content" id="img09">
 									<div id="caption">Corpus Christi Caller Times.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg9');
+								var modalL5 = document.getElementById('myModal9');
+								var modalImg9= document.getElementById('img09');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL5.style.display = "block";
+									modalImg9.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL5.onclick = function() {
+									modalL5.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg10" src="images/news/10P.jpg" alt="The Arizona Republic." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal10" class="modal5">
+									<span class="close" onclick="document.getElementById('myModal10').style.display='none'">&times;</span>
+									<img class="modal-content" id="img10">
 									<div id="caption">Arizona Republic. </div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg10');
+								var modalR5 = document.getElementById('myModal10');
+								var modalImg10 = document.getElementById('img10');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR5.style.display = "block";
+									modalImg10.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR5.onclick = function() {
+									modalR5.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg11" src="images/news/11U.jpg" alt="Reno Gazette-Journal." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal11" class="modal6">
+									<span class="close" onclick="document.getElementById('myModal11').style.display='none'">&times;</span>
+									<img class="modal-content" id="img11">
 									<div id="caption">Reno Gazette-Journal.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg11');
+								var modalL6 = document.getElementById('myModal11');
+								var modalImg11 = document.getElementById('img11');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL6.style.display = "block";
+									modalImg11.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL6.onclick = function() {
+									modalL6.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg12" src="images/news/12S.jpg" alt="Las Cruces Sun-News." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal12" class="modal6">
+									<span class="close" onclick="document.getElementById('myModal12').style.display='none'">&times;</span>
+									<img class="modal-content" id="img12">
 									<div id="caption">Arizona Republic. </div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg12');
+								var modalR6 = document.getElementById('myModal12');
+								var modalImg12 = document.getElementById('img12');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR6.style.display = "block";
+									modalImg12.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR6.onclick = function() {
+									modalR6.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg13" src="images/news/13S.jpg" alt="The Desert Sun." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal13" class="modal7">
+									<span class="close" onclick="document.getElementById('myModal13').style.display='none'">&times;</span>
+									<img class="modal-content" id="img13">
 									<div id="caption">The Desert Sun.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg13');
+								var modalL7 = document.getElementById('myModal13');
+								var modalImg13 = document.getElementById('img13');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL7.style.display = "block";
+									modalImg13.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL7.onclick = function() {
+									modalL7.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg14" src="images/news/14G.jpg" alt="The Arizona Republic." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal14" class="modal7">
+									<span class="close" onclick="document.getElementById('myModal14').style.display='none'">&times;</span>
+									<img class="modal-content" id="img14">
 									<div id="caption">Arizona Republic. </div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg14');
+								var modalR7 = document.getElementById('myModal14');
+								var modalImg14 = document.getElementById('img14');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR7.style.display = "block";
+									modalImg14.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR7.onclick = function() {
+									modalR7.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg15" src="images/news/15A.jpg" alt="Fort Collins Coloradoan." class="pl">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
+								<div id="myModal15" class="modal8">
+									<span class="close" onclick="document.getElementById('myModal15').style.display='none'">&times;</span>
+									<img class="modal-content" id="img15">
 									<div id="caption">Fort Collins Coloradoan.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg15');
+								var modalL8 = document.getElementById('myModal15');
+								var modalImg15 = document.getElementById('img15');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalL8.style.display = "block";
+									modalImg15.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalL8.onclick = function() {
+									modalL8.style.display = "none";
 								}
 								</script>
 
 								<img id="myImg16" src="images/news/16R.jpg" alt="Statesman Journal." class="pr">
-								<div id="myModal" class="modal">
-									<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-									<img class="modal-content" id="img01">
-									<div id="caption">Statesman Journal. </div>
+								<div id="myModal16" class="modal8">
+									<span class="close" onclick="document.getElementById('myModal16').style.display='none'">&times;</span>
+									<img class="modal-content" id="img16">
+									<div id="caption">Statesman Journal.</div>
 								</div>
 								<script>
 								// Get the image and insert it inside the modal - use its "alt" text as a caption
 								var img = document.getElementById('myImg16');
+								var modalR8 = document.getElementById('myModal16');
+								var modalImg16 = document.getElementById('img16');
 								img.onclick = function(){
-									modal.style.display = "block";
-									modalImg.src = this.src;
+									modalR8.style.display = "block";
+									modalImg16.src = this.src;
 									captionText.innerHTML = this.alt;
+								}
+								modalR8.onclick = function() {
+									modalR8.style.display = "none";
 								}
 								</script>
 							</article>
@@ -378,10 +450,11 @@
 								</ul>
 								<h2 style="text-align: center">Freelance Social Graphics</h2>
 								<p>Outside of the studio, Mallory works with clients on their  branding and social media. For one project, she designed Instagram-ready graphics based on user specifications using stock vectors and her own creative designs in Adobe Illustrator. Mallory is highly skilled in translating user needs into beautiful graphics.
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 								<div id="social">
-									<b><img src="images/social/DonutDaySocialGraphic.png" style="width: 28%; float:left"/></b>
-									<b><img src="images/social/RandomActsofKindnessSocialGraphic.png" style="width:28%"/></b>
-									<b><img src="images/social/WorldBeardDaySocialGrahic.png" style="width: 28%; float:right"/></b>
+									<b><img class="socImg" src="images/social/DonutDaySocialGraphic.png" alt="National Donut Day" style="float:left"/></b>
+									<b><img class="socImg" src="images/social/RandomActsofKindnessSocialGraphic.png" alt="Random Acts of Kindness Day"/></b>
+									<b><img class="socImg" src="images/social/WorldBeardDaySocialGrahic.png" alt="World Beard Day" style="float:right"/></b>
 								</div>
 								<br>
 								<br>
@@ -389,10 +462,33 @@
 								<p>In addition to daily news or sports sections in <i>The Arizona Republic</i>, Mallory designs social graphics to promote online articles from <a href="www.azcentral.com">azcentral.com</a> on Twitter and Facebook. She often designs these graphics in very short time frames so that the graphics can be published with live photos before the game ends.
 								</p>
 								<div id="social">
-									<b><img src="images/social/fbtaurasi.jpg" style="width: 28%; float:left"/></b>
-									<b><img src="images/social/fb_football1.png" style="width:28%"/></b>
-									<b><img src="images/social/fb_football2.png" style="width: 28%; float:right"/></b>
+									<b><img class="socImg" src="images/social/fbtaurasi.jpg" alt="AZCentral.com" style="float:left"/></b>
+									<b><img class="socImg" src="images/social/fb_football1.png" alt="AZCentral.com"/></b>
+									<b><img class="socImg" src="images/social/fb_football2.png" alt="AZCentral.com" style="float:right"/></b>
 								</div>
+								
+								<div id="socModal" class="socialModal">
+									<span class="close" onclick="document.getElementById('socModal').style.display='none'">&times;</span>
+									<img class="modal-content" id="soc01">
+									<div id="socCaption"></div>
+								</div>
+
+								<script>
+									var socModal = document.getElementById('socModal');
+									// Get the image and insert it inside the modal - use its "alt" text as a caption
+									var img = $('.socImg');
+									var socModImg = $("#soc01");
+									var captionText = document.getElementById('socCaption');
+									$('.socImg').click(function() {
+										socModal.style.display = "block";
+										var newSrc = this.src;
+										socModImg.attr('src', newSrc);
+										captionText.innerHTML = this.alt;
+									});
+									socModal.onclick = function() {
+										socModal.style.display = "none";
+									}
+									</script>
 							</article>
 
 							<article id="VR">
